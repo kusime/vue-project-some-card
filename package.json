@@ -1,0 +1,24 @@
+{
+  "name": "dummy-pinia",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "db": "firebase emulators:start"
+  },
+  "dependencies": {
+    "firebase": "^9.10.0",
+    "firebase-tools": "^11.9.0",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5",
+    "vue-ionicons": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "vite": "^3.1.0"
+  }
+}
